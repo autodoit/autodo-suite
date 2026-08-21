@@ -9,4 +9,8 @@ dependencies = [
 ]
 
 [tool.uv]
-workspace = { members = ["../autodo-engine", "../autodo-kit", "../autodo-lib", "../autodo-app"] }
+workspace = { members = ["../autodo-engine", "../autodo-kit"] }
+
+[tool.uv.sources]
+autodo-engine = { workspace = true }
+autodo-kit = { workspace = true }
