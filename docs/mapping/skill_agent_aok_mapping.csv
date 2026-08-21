@@ -1,0 +1,24 @@
+item_uid,content_type,item_name,canonical_path,deployed_path,aok_affair,aok_tool,aok_entry_kind,script_state,wrapper_required,wrapper_present,params_template,status,priority,notes
+,skill,ar_A030_生成关键词集合_v6,libs/skills/ar_A030_生成关键词集合_v6,{HOME}/.copilot/skills/ar_A030_生成关键词集合_v6,生成关键词集合,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok
+,skill,ar_A040_CNKI基础检索_v5,libs/skills/ar_A040_CNKI基础检索_v5,{HOME}/.copilot/skills/ar_A040_CNKI基础检索_v5,CNKI基础检索,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok
+,skill,ar_A040_CNKI高级检索_v5,libs/skills/ar_A040_CNKI高级检索_v5,{HOME}/.copilot/skills/ar_A040_CNKI高级检索_v5,CNKI高级检索,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok
+,skill,ar_A040_CNKI结果解析_v5,libs/skills/ar_A040_CNKI结果解析_v5,{HOME}/.copilot/skills/ar_A040_CNKI结果解析_v5,CNKI结果解析,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok
+,skill,ar_A040_CNKI文献详情提取_v5,libs/skills/ar_A040_CNKI文献详情提取_v5,{HOME}/.copilot/skills/ar_A040_CNKI文献详情提取_v5,CNKI单篇详情提取,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok
+,skill,ar_A040_CNKI文献下载_v5,libs/skills/ar_A040_CNKI文献下载_v5,{HOME}/.copilot/skills/ar_A040_CNKI文献下载_v5,CNKI全文下载规划,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok
+,skill,ar_A045_文献下载与主附件入库_v1,libs/skills/ar_A045_文献下载与主附件入库_v1,{HOME}/.copilot/skills/ar_A045_文献下载与主附件入库_v1,文献下载与主附件入库,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok(affair.json缺失)
+,skill,ar_A050_统一文献预处理解析_v1,libs/skills/ar_A050_统一文献预处理解析_v1,{HOME}/.copilot/skills/ar_A050_统一文献预处理解析_v1,统一文献预处理解析,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok
+,skill,ar_A060_综述候选文献视图构建_v7,libs/skills/ar_A060_综述候选文献视图构建_v7,{HOME}/.copilot/skills/ar_A060_综述候选文献视图构建_v7,候选文献视图构建,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok
+,skill,ar_A060_综述预处理_v6,libs/skills/ar_A060_综述预处理_v6,{HOME}/.copilot/skills/ar_A060_综述预处理_v6,综述预处理,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok
+,skill,ar_A075_非综述候选种子生成_v1,libs/skills/ar_A075_非综述候选种子生成_v1,{HOME}/.copilot/skills/ar_A075_非综述候选种子生成_v1,非综述候选种子生成,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok(affair.json缺失)
+,skill,ar_A080_非综述候选文献视图构建_v5,libs/skills/ar_A080_非综述候选文献视图构建_v5,{HOME}/.copilot/skills/ar_A080_非综述候选文献视图构建_v5,非综述候选视图构建,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok(affair.json为空)
+,skill,ar_A090_文献泛读与粗读_v6,libs/skills/ar_A090_文献泛读与粗读_v6,{HOME}/.copilot/skills/ar_A090_文献泛读与粗读_v6,文献泛读与粗读,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok(affair.json缺失)
+,skill,ar_A100_单篇文献精读_v6,libs/skills/ar_A100_单篇文献精读_v6,{HOME}/.copilot/skills/ar_A100_单篇文献精读_v6,文献研读与正式知识回写,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok
+,skill,ar_A110_文献矩阵构建_v6,libs/skills/ar_A110_文献矩阵构建_v6,{HOME}/.copilot/skills/ar_A110_文献矩阵构建_v6,文献矩阵,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok
+,skill,ar_A120_引文化研究脉络综述_v6,libs/skills/ar_A120_引文化研究脉络综述_v6,{HOME}/.copilot/skills/ar_A120_引文化研究脉络综述_v6,研究脉络梳理,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok
+,skill,ar_A130_领域知识框架构建_v6,libs/skills/ar_A130_领域知识框架构建_v6,{HOME}/.copilot/skills/ar_A130_领域知识框架构建_v6,领域知识框架构建,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok
+,skill,ar_A140_创新点池生成_v6,libs/skills/ar_A140_创新点池生成_v6,{HOME}/.copilot/skills/ar_A140_创新点池生成_v6,创新点池构建,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok
+,skill,ar_A150_创新点可行性验证_v6,libs/skills/ar_A150_创新点可行性验证_v6,{HOME}/.copilot/skills/ar_A150_创新点可行性验证_v6,创新点可行性验证,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok
+,skill,ar_CNKI期刊检索_v1,libs/skills/ar_CNKI期刊检索_v1,{HOME}/.copilot/skills/ar_CNKI期刊检索_v1,CNKI期刊检索,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok
+,skill,ar_文献检索治理与路由_v1,libs/skills/ar_文献检索治理与路由_v1,{HOME}/.copilot/skills/ar_文献检索治理与路由_v1,检索治理,,affair,wrapper,false,true,params.examples.json,wrapper_untested,P1,wrapper+params+README ok
+,skill,A010_项目初始化_v6,libs/skills/A010_项目初始化_v6,{HOME}/.copilot/skills/A010_项目初始化_v6,项目初始化,,affair,heavy,false,true,,needs_migration,P1,MIGRATION_NEEDED.md ok
+,skill,ar_文献导入与预处理事务综合技能_v1,libs/skills/ar_文献导入与预处理事务综合技能_v1,{HOME}/.copilot/skills/ar_文献导入与预处理事务综合技能_v1,导入和预处理文献元数据,,affair,heavy,false,true,,needs_migration,P1,MIGRATION_NEEDED.md ok

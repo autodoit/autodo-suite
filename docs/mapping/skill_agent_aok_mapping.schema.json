@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://autodo.suite/schemas/skill_agent_aok_mapping.schema.json",
+  "title": "Skill-Agent-AOK 映射表 Schema",
+  "description": "定义 Copilot Skill/Agent 与 AOK affair/tool 之间映射关系的 CSV 字段规范。",
+  "type": "object",
+  "properties": {
+    "item_uid": {
+      "type": "string",
+      "description": "autodo-lib database/items.csv 中的唯一标识符。若尚未录入则为空。"
+    },
+    "content_type": {
+      "type": "string",
+      "enum": ["agent", "skill"],
+      "description": "内容类型：agent 或 skill。"
+    },
+    "item_name": {
+      "type": "string",
+      "description": "Agent 或 Skill 的目录名（不含路径）。"
+    },
+    "canonical_path": {
+      "type": "string",
+      "description": "autodo-lib/libs 中的 canonical 相对路径，如 libs/skills/ar_A030_生成关键词集合_v6。"
+    },
+    "deployed_path": {
+      "type": "string",
+      "description": "用户级 .copilot 部署路径，如 {HOME}/.copilot/skills/ar_A030_生成关键词集合_v6。使用 {HOME} 占位。"
+    },
+    "aok_affair": {
+      "type": "string",
+      "description": "对应的 AOK affair 目录名，如 生成关键词集合。若不对应 affair 则为空。"
+    },
+    "aok_tool": {
+      "type": "string",
+      "description": "对应的 AOK tool 函数或模块路径，如 autodokit.tools.bibliodb_sqlite。"
+    },
+    "aok_entry_kind": {
+      "type": "string",
+      "enum": ["affair", "tool", "aoe_runtime", "none"],
+      "description": "AOK 入口类型。"
+    },
+    "script_state": {
+      "type": "string",
+      "enum": ["none", "empty", "wrapper", "heavy", "third_party", "legacy"],
+      "description": "scripts/ 目录状态。none=无目录, empty=空目录, wrapper=薄封装, heavy=含核心逻辑, third_party=第三方工具, legacy=旧路径残留。"
+    },
+    "wrapper_required": {
+      "type": "boolean",
+      "description": "是否需要 Skill-local wrapper 脚本。"
+    },
+    "wrapper_present": {
+      "type": "boolean",
+      "description": "wrapper 脚本是否已存在且可运行。"
+    },
+    "params_template": {
+      "type": "string",
+      "description": "参数模板文件路径（相对于 Skill 根目录），如 params.examples.json。"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["ok", "needs_wrapper", "needs_migration", "needs_params", "docs_only", "third_party", "deprecated"],
+      "description": "当前适配状态。"
+    },
+    "priority": {
+      "type": "string",
+      "enum": ["P0", "P1", "P2", "P3"],
+      "description": "适配优先级。"
+    },
+    "notes": {
+      "type": "string",
+      "description": "备注说明。"
+    }
+  },
+  "required": ["content_type", "item_name", "script_state", "status"]
+}
