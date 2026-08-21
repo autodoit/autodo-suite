@@ -3,6 +3,13 @@
 uv.lock
 .github/**
 
+# AI 工具本地运行时状态
+.codebuddy/
+
+# 临时目录与一次性修复脚本
+/temps/**
+fix_git_error.ps1
+
 
 # Created by https://www.toptal.com/developers/gitignore/api/r,c++,lyx,tex,java,node,rust,julia,latex,linux,macos,spark,stata,vcpkg,matlab,octave,python,pycharm,windows,obsidian,sublimetext,visualstudio,jupyternotebooks,visualstudiocode,venv
 # Edit at https://www.toptal.com/developers/gitignore?templates=r,c++,lyx,tex,java,node,rust,julia,latex,linux,macos,spark,stata,vcpkg,matlab,octave,python,pycharm,windows,obsidian,sublimetext,visualstudio,jupyternotebooks,visualstudiocode,venv
