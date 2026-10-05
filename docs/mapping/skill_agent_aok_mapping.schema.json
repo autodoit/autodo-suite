@@ -7,7 +7,7 @@
   "properties": {
     "item_uid": {
       "type": "string",
-      "description": "autodo-lib database/items.csv 中的唯一标识符。若尚未录入则为空。"
+      "description": "内容库 database/items.csv 中的唯一标识符。若尚未录入则为空。"
     },
     "content_type": {
       "type": "string",
@@ -20,7 +20,7 @@
     },
     "canonical_path": {
       "type": "string",
-      "description": "autodo-lib/libs 中的 canonical 相对路径，如 libs/skills/ar_A030_生成关键词集合_v6。"
+      "description": "内容库 libs/ 中的 canonical 相对路径，如 libs/skills/ar_A030_生成关键词集合_v6。"
     },
     "deployed_path": {
       "type": "string",

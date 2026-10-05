@@ -19,7 +19,7 @@
 
 ## 关键约定
 
-1. **真源位置**：Skill/Agent 的 canonical 真源在 `autodo-lib/libs/`，用户级 `.copilot/` 是部署产物。
+1. **真源位置**：Skill/Agent 的 canonical 真源在内容库的 `libs/`，用户级 `.copilot/` 是部署产物。
 2. **脱敏原则**：所有文档中不出现真实用户名、绝对 home 路径、密钥、令牌；统一使用 `${HOME}`、`AUTODO_KIT_ROOT`、`AUTODO_LIB_ROOT` 等占位符。
 3. **状态标记**：
    - `ok`：已完成且验证通过
@@ -29,4 +29,4 @@
    - `docs_only`：纯说明型，无需脚本
    - `third_party`：通用第三方工具，不纳入 AOK
    - `deprecated`：已废弃的旧版本
-4. **开发顺序**：先改 `autodo-lib/libs`（canonical 真源），再通过 AOB 发布到 `.copilot/`。
+4. **开发顺序**：先改内容库的 `libs/`（canonical 真源），再通过 AOB 发布到 `.copilot/`。

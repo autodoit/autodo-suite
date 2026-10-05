@@ -123,4 +123,4 @@ autodo-kit/autodokit/tools/adapters/runner/
 
 ## Skill wrapper 模板
 
-参见 `autodo-lib/libs/templates/skill_aok_wrapper/`。
+参见内容库的 `libs/templates/skill_aok_wrapper/`。

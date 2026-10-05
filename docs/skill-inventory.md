@@ -2,7 +2,7 @@
 
 > 最后更新：2026-07-30（第二轮铺完：wrapper + 迁移标记 + 废弃标注）
 > 
-> 本清单记录 canonical `autodo-lib/libs/skills/` 下所有 Skill 的脚本状态、AOK 映射与适配进度。
+> 本清单记录 canonical 内容库 `libs/skills/` 下所有 Skill 的脚本状态、AOK 映射与适配进度。
 > 
 > **注意**：所有路径中的用户 home 目录已替换为 `{HOME}`。
 

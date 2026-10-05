@@ -1,12 +1,11 @@
 # Autodo Suite (AOS)
 
-Autodo Suite（AOS）是一个多仓库的开发聚合目录，用于协调和统一 `autodo-engine`、`autodo-kit`、`autodo-lib` 与 `autodo-app` 的本地开发、测试与文档工作流。
+Autodo Suite（AOS）是一个多仓库的开发聚合目录，用于协调和统一 `autodo-engine`、`autodo-kit` 与 `autodo-app` 的本地开发、测试与文档工作流。
 
 ## 目录结构（工作区）
 
 - `autodo-engine`：核心调度引擎与运行时。
 - `autodo-kit`：预置事务（Affairs）、示例与业务工具。
-- `autodo-lib`：基础库、Prompt 与 Agent 定义。
 - `autodo-app`：前端/集成应用（示例 GUI、VS Code 集成等）。
 
 ## 目标

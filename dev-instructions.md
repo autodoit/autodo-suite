@@ -5,7 +5,6 @@
 **子仓库一览**
 - `autodo-engine`：核心调度引擎与运行时（AOE）。
 - `autodo-kit`：预置事务、示例与业务工具（AOK）。
-- `autodo-lib`：通用库、Prompt 与 Agent 定义（AOL）。
 - `autodo-app`：前端/集成应用（AOA）。
 
 ## 快速开始（推荐顺序）
